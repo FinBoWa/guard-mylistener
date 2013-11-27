@@ -9,7 +9,7 @@ module Guard
     #
     # @param [Hash] options the custom Guard plugin options
     # @option options [Array<Guard::Watcher>] watchers the Guard plugin file watchers
-    # @option options [Symbol] group the group this Guard plugin belongs to                     x<a<ax
+    # @option options [Symbol] group the group this Guard plugin belongs to
     # @option options [Boolean] any_return allow any object to be returned from a watcher
     #
     def initialize(options = {})
@@ -74,7 +74,7 @@ module Guard
     #
     # @param [Array<String>] paths the changes files or paths
     # @raise [:task_has_failed] when run_on_modifications has failed
-    # @return [Object] the task resultadw   aw
+    # @return [Object] the task result
     #
     def run_on_modifications(paths)
       UI.info("run_on_modifications" + paths.to_s)
@@ -84,7 +84,7 @@ module Guard
     #
     # @param [Array<String>] paths the changes files or paths
     # @raise [:task_has_failed] when run_on_removals has failed
-    # @return [Object] thedawddwawd task result
+    # @return [Object] the task result
     #
     def run_on_removals(paths)
       UI.info("run_on_removals" + paths.to_s)

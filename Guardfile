@@ -12,7 +12,7 @@ opts = {
     :password => "password",
     :remote => "remote_path",
     :verbose => true,        # if true you get all outputs
-    :quiet => false           # if true outputs only on exceptions.    awdd
+    :quiet => false           # if true outputs only on exceptions.
 }
 
 guard :mylistener, opts do
